@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://use.typekit.net/wdr3ubc.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-bar">
+                <a href="index.html">HOME</a>
+                <a href="works.html">WORK</a>
+                <a href="about.html" >BIO</a>
+                <a href="contact.html" class="current-page">CONTACT</a>
+            </ul>
+
+            <div class="header-name">
+                <h3>COURTNEY HANSES</h3>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            <h1 class="page-name">CONTACT ME</h1>
+            <div class="details">
+            <form action="https://www.form-to-email.com/api/s/YOUR_FORM_ID" method="POST">
+            <br><br>
+                <fieldset class="contact">
+                <legend>Contact Form</legend>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name"/>
+                    <br>
+                    <label for="phonenumber">Phone Number</label>
+                    <input type="tel" id="phonenumber" name="phonenumber" placeholder="Ex: (989 989-0000)">
+                    <br>
+                    <label for="for-email">Email</label>
+                    <input type="email" id="for-email" name="for-email" minlength="8" maxlength="64" required>
+                    <br>
+                    <textarea id="message" name="message" rows="8" cols="50">Ask me something!</textarea>
+                </fieldset>
+                <input type="button" value="Send!"> 
+            </form>
+        </div>
+        </section>
+    </main>
+    
+    <footer><p>Courtney Hanses, 2025</p></footer>
+</body>
+</html>
